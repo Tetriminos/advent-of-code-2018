@@ -19,6 +19,6 @@ const input = fs
   .map(s => s.replace(/\r$/, ""))
   .filter(s => s.length > 0);
 
-const solve = require(`./${day}/solve.js`);
+const { solve } = require(`./${day}/solve.js`);
 
 console.log(solve(input));

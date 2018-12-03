@@ -30,4 +30,4 @@ const solve = input => {
   return accumulator;
 };
 
-module.exports = solve;
+module.exports = { solve };

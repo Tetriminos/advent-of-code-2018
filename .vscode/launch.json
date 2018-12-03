@@ -7,9 +7,43 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch Day 3 example",
+      "program": "${workspaceFolder}/index.js",
+      "args": ["03", "2"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "More than one difference test",
+      "program": "${workspaceFolder}/02/test.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Day 1",
       "program": "${workspaceFolder}/index.js",
       "args": ["01", "2"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Day 2 example",
+      "program": "${workspaceFolder}/index.js",
+      "args": ["02", "2"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Day 2 example 2",
+      "program": "${workspaceFolder}/index.js",
+      "args": ["02", "3"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Day 2",
+      "program": "${workspaceFolder}/index.js",
+      "args": ["02", "1"]
     }
   ]
 }
