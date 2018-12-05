@@ -11,3 +11,7 @@
 
 ### Day 4: Repose Record
 - solved in: js
+
+### Day 5: Alchemical Reduction
+
+- solved in: js
