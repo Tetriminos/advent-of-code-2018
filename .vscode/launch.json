@@ -7,6 +7,12 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Launch Day 5 solve",
+      "program": "${workspaceFolder}/05/solve.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Launch Day 3 example",
       "program": "${workspaceFolder}/index.js",
       "args": ["03", "2"]
