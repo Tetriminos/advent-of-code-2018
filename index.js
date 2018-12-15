@@ -21,4 +21,4 @@ const input = fs
 
 const { solve } = require(`./${day}/solve.js`);
 
-console.log(solve(input));
+solve(input);
